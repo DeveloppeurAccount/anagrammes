@@ -1,3 +1,9 @@
+if (ARGV.length != 2)
+    puts "#{__FILE__} requires two arguments"
+    exit
+end
+
+word_to_compare = ARGV[0].split('')
 anagram_file = ARGV[1]
 
 word_list = []
@@ -15,5 +21,3 @@ while (line < word_list.length)
 end
 
 puts anagrams.inspect
-
-
