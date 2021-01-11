@@ -1,0 +1,32 @@
+1)
+
+On récupère le premier argument et on le convertit en tableau de sorte qu'une lettre = une valeur du tableau
+
+2)
+
+On appelle une fonction qui va transformer le contenu de notre chaine de caractère en des données.
+on va donc appeler une fonction qui va prendre le chemin du fichier et qui va donner de la data derrière
+et l'idée va être de rediriger cette data dans un tableau.
+on va faire 1 ligne = 1 tableau
+
+3)
+
+On va comparer notre mot passé en premier argument avec la liste de mots du fichier du second argument
+
+Étapes de la comparaison
+
+les deux mots comparées ont le même nombre de caractères ?
+
+les deux mots comparés ont les même caractères ?
+
+4)
+
+Créer un tableau dans lequel on mettra les anagrammes.
+
+Si un mot répond vrai aux deux questions de l'étape 3, copier ce mot dans le tableau
+
+Sinon continuer
+
+Une fois arriver à la fin du tableau stopper, puis afficher le tableau de l'anagramme et fin de l'algorythme
+
+
